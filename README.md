@@ -5,9 +5,10 @@
 pip install .
 ```
 
-To run the app use command:
+### To run the app use command:
 ```bash
-sigmastatistics
+sigmastat
 ```
+
 
 ![preview](https://github.com/user-attachments/assets/c470b3d0-07e4-4ce7-8fc3-e497ba8a2b5f)
