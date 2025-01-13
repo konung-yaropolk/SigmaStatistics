@@ -39,6 +39,6 @@ version = {attr = "SigmaStatistics.__version__"}
 dependencies = {file = ["requirements.txt"]}
 
 [project.gui-scripts]
-sigmastatistics = "SigmaStatistics:Run"
-sigmastats = "SigmaStatistics:Run"
-sigmastat = "SigmaStatistics:Run"
+sigmastatistics = "SigmaStatistics:AppRun"
+sigmastats = "SigmaStatistics:AppRun"
+sigmastat = "SigmaStatistics:AppRun"

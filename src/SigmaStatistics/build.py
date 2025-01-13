@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import SigmaStatistics.mainwindow
+import SigmaStatistics.mainwindow as main
 from SigmaStatistics._version import __version__
 
-mainwindow.BUILD = True
-mainwindow.main()
+main.BUILD = True
+main.main()
