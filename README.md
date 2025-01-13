@@ -7,8 +7,8 @@ pip install .
 
 ### To run the app use command:
 ```bash
-sigmastat
+sigmastats
 ```
 
-
-![preview](https://github.com/user-attachments/assets/c470b3d0-07e4-4ce7-8fc3-e497ba8a2b5f)
+---
+![preview](https://github.com/user-attachments/assets/50ebc4f4-92c2-476e-801a-4cedfdbf551f)
