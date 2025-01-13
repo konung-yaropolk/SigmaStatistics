@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=62.6", "openpyxl", "PySide6", "matplotlib", "autostatlib"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "SigmaStatistics"
+dynamic = ["version", "dependencies"]
+license = {file = "LICENSE"}
+authors = [
+  { name="konung-yaropolk", email="yaropolk1995@gmail.com" },
+  { name="Stemonitis"},
+  { name="SciWare LLC"},
+]
+description = "SigmaStatistics - automated statistical analysis application"
+keywords = ["Science", "Statistics"]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+#    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+#    "Topic :: Software Development :: Libraries",
+#    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/konung-yaropolk/NPL"
+Issues = "https://github.com/konung-yaropolk/NPL/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "SigmaStatistics.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+[project.gui-scripts]
+sigmastatistics = "SigmaStatistics:Run"

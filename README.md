@@ -1,2 +1,2 @@
 # SigmaStatistics
-Sigma Statistics - automated statistical analysis application
+Sigma Statistics - automated statistical analysis app
