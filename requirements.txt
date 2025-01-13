@@ -1,3 +1,4 @@
 matplotlib
 openpyxl
+AutoStatLib
 PySide6
