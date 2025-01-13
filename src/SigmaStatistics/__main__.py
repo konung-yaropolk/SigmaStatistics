@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import .mainwindow
-from ._version import __version__
+import SigmaStatistics.mainwindow
+from SigmaStatistics._version import __version__
 
 if __name__ == '__main__':
     mainwindow.main()

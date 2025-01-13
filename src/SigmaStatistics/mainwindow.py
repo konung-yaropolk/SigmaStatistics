@@ -6,8 +6,8 @@ import csv
 from openpyxl import load_workbook
 from PySide6.QtWidgets import QApplication, QMainWindow, QPlainTextEdit
 # , QMessageBox, QTextEdit, QPushButton
-from .mainwindow_layout import Ui_MainWindow
-from .methods import Methods
+from SigmaStatistics.mainwindow_layout import Ui_MainWindow
+from SigmaStatistics.methods import Methods
 
 # activate this flag when build the app using pyinstaller:
 BUILD = False

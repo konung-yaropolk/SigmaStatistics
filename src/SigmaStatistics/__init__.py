@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-#import mainwindow
-from .mainwindow import *
-from ._version import __version__
+import SigmaStatistics.mainwindow
+from SigmaStatistics._version import __version__
 
 def Run():
-    main()
+    mainwindow.main()
