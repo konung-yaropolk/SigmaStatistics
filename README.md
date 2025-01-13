@@ -40,3 +40,5 @@ check:
 checked tests:
 --Wilcoxon 2 tail - ok
 --Mann-whitney 2 tail - ok
+--t-tests 2 tail -ok
+
