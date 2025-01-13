@@ -19,3 +19,19 @@ sigmastats
 
 ---
 ![preview](https://github.com/user-attachments/assets/50ebc4f4-92c2-476e-801a-4cedfdbf551f)
+
+---
+## Pre-Alpha dev status.
+
+### TODO:
+
+--Kruskal-Wallis test - add Dunn's multiple comparisons
+--Anova: add 2-way anova and 3-way(?)
+
+check:
+--Wilcoxon signed-rank test and Mann-whitney - check mechanism of one-tailed calc, looks like it works wrong
+
+
+checked tests:
+--Wilcoxon 2 tail - ok
+--Mann-whitney 2 tail - ok
