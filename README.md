@@ -12,7 +12,7 @@
 pip install sigmastatistics
 ```
 
-### To run the app use command:
+### To run the app use the command:
 ```bash
 sigmastats
 ```
