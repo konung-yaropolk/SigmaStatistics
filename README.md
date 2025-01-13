@@ -8,7 +8,8 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/SigmaStatistics?label=PyPI%20stats&color=blue)](https://pypi.org/project/SigmaStatistics)
 ---
 
-### To download SigmaStatistics.exe go to the github release page
+### To download SigmaStatistics.exe go to the github release page:
+https://github.com/konung-yaropolk/SigmaStatistics/releases
 ---
 ### To install the app from repos, run the command:
 ```bash
