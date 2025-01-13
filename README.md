@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-v3.0%5E-green?logo=python)](https://pypi.org/project/SigmaStatistics)  
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/SigmaStatistics?label=PyPI%20stats&color=blue)](https://pypi.org/project/SigmaStatistics)
 ---
-### To install package run the command in the project dirrectory:
+### To install app run the command:
 ```bash
 pip install sigmastatistics
 ```
