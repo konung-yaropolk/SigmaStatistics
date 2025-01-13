@@ -18,7 +18,8 @@ sigmastats
 ```
 
 ---
-![preview](https://github.com/user-attachments/assets/df3d6a0a-2727-4b72-ad72-3dc2d7a62e86)
+![preview](https://github.com/user-attachments/assets/9b426870-2175-4d57-b6c7-e5711e9c5259)
+
 ---
 ## Pre-Alpha dev status.
 
