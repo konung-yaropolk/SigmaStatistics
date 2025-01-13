@@ -8,7 +8,7 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/SigmaStatistics?label=PyPI%20stats&color=blue)](https://pypi.org/project/SigmaStatistics)
 ---
 
-### You can download a single binary SigmaStatistics.exe on the github releases page:
+### You can download a single binary SigmaStatistics.exe on the github releases page:###
 
 https://github.com/konung-yaropolk/SigmaStatistics/releases
 ---
