@@ -1,5 +1,5 @@
 ![icon](https://github.com/user-attachments/assets/bcacd6bf-2157-4a55-a051-1564c900a360) 
-# SigmaStatistics - application for automated statistical analysis 
+## SigmaStatistics - application for automated statistical analysis 
 ---
 [![pypi_version](https://img.shields.io/pypi/v/SigmaStatistics?label=PyPI&color=green)](https://pypi.org/project/SigmaStatistics)
 [![GitHub Release](https://img.shields.io/github/v/release/konung-yaropolk/SigmaStatistics?label=GitHub&color=green&link=https%3A%2F%2Fgithub.com%2Fkonung-yaropolk%2FSigmaStatistics)](https://github.com/konung-yaropolk/SigmaStatistics)
