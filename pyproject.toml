@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=62.6", "openpyxl", "PySide6", "matplotlib", "autostatlib"]
+requires = ["setuptools>=62.6", "pyopengl", "openpyxl", "PySide6", "matplotlib", "autostatlib"]
 build-backend = "setuptools.build_meta"
 
 
