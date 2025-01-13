@@ -12,9 +12,9 @@
 
 https://github.com/konung-yaropolk/SigmaStatistics/releases
 
-#### To install the app from repos, run the command:
+#### To install the app from sources, run the command in project dir:
 ```bash
-pip install sigmastatistics
+pip install .
 ```
 
 #### Then run installed app using the command:
