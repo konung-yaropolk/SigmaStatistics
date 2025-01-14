@@ -40,6 +40,7 @@ sigmastats
 -- add independend t-test with Welch correction (do not assume equal SDs in groups)  
 -- add correlation test, correlation diagram  
 -- add linear regression, regression diagram  
+-- add QQ plot
 -- n-sample tests: add onetail option
   
 -- detailed normality test results
