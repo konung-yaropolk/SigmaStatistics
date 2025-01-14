@@ -1,4 +1,4 @@
 matplotlib
 openpyxl
 AutoStatLib
-PySide6
+PyQt6
