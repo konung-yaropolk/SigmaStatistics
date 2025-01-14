@@ -64,21 +64,25 @@ class MainWindow(QMainWindow, Methods):
         self.replace_input_field()
 
     def replace_input_field(self):
-        new_text_edit = PlainTextEditDragNDrop(self)
+        new_input_field = PlainTextEditDragNDrop(self)
+        new_input_field.setLineWrapMode(QPlainTextEdit.NoWrap)
         placeholder_text = self.ui.input_field.placeholderText()
         layout = self.centralWidget().layout()
-        layout.replaceWidget(self.ui.input_field, new_text_edit)
+        layout.replaceWidget(self.ui.input_field, new_input_field)
         self.ui.input_field.deleteLater()
-        self.ui.input_field = new_text_edit
+        self.ui.input_field = new_input_field
         self.ui.input_field.setPlaceholderText(placeholder_text)
+
 
 def main():
 
-    if BUILD: import pyi_splash
+    if BUILD:
+        import pyi_splash
     app = QApplication(sys.argv)
     main_window = MainWindow()
     main_window.show()
-    if BUILD: pyi_splash.close()
+    if BUILD:
+        pyi_splash.close()
     sys.exit(app.exec())
 
 
