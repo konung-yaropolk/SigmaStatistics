@@ -39,10 +39,10 @@ sigmastats
 -- add independend t-test with Welch correction (do not assume equal SDs in groups)  
 -- add correlation test, correlation diagram  
 -- add linear regression, regression diagram  
+-- n-sample tests: add onetail option
   
   
-check:  
--- ANOVA check one tail  
+
   
 checked tests:  
 1-sample:  
