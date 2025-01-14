@@ -43,7 +43,7 @@ sigmastats
 -- add QQ plot
 -- n-sample tests: add onetail option
   
--- detailed normality test results
+✅ done -- detailed normality test results
 
   
 checked tests:  
