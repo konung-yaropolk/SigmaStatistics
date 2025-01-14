@@ -35,13 +35,14 @@ sigmastats
 -- onevay Anova: add repeated measures (for normal dependend values) with and without Gaisser-Greenhouse correction  
 -- onevay Anova: add Brown-Forsithe and Welch (for normal independend values with unequal SDs between groups)  
 -- paired T-test: add ratio-paired t-test (ratios of paired values are consistent)  
+-- add Welch test (for norm data unequal variances)
 -- add Kolmogorov-smirnov test (unpaired nonparametric 2 sample, compare cumulative distributions)  
 -- add independend t-test with Welch correction (do not assume equal SDs in groups)  
 -- add correlation test, correlation diagram  
 -- add linear regression, regression diagram  
 -- n-sample tests: add onetail option
   
-  
+-- detailed normality test results
 
   
 checked tests:  
