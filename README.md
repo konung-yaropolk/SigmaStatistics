@@ -30,15 +30,30 @@ sigmastats
 
 ### TODO:
 
---Kruskal-Wallis test - add Dunn's multiple comparisons
---Anova: add 2-way anova and 3-way(?)
+-- Kruskal-Wallis test - add Dunn's multiple comparisons
+-- Anova: add 2-way anova and 3-way(?)
+-- paired T-test: add ratio-paired t-test (ratios of paired values are consistent)
+-- Kolmogorov-smirnov test (unpaired nonparametric 2 sample, compare cumulative distributions)
+-- independend t-test with Welch correction (do not assume equal SDs in groups)
+
+-- correlation test, correlation diagram
+-- linear regression
+
 
 check:
---Wilcoxon signed-rank test and Mann-whitney - check mechanism of one-tailed calc, looks like it works wrong
-
+-- ANOVA check one tail
 
 checked tests:
---Wilcoxon 2 tail - ok
---Mann-whitney 2 tail - ok
---t-tests 2 tail -ok
+1-sample:
+--Wilcoxon 2,1 tails - ok
+--t-tests 2,1 tails -ok
+
+2-sample:
+--Wilcoxon 2,1 tails - ok
+--Mann-whitney 2,1 tails - ok
+--t-tests 2,1 tails -ok
+
+n-sample:
+--Friedman 2 tail - ok
+--one-way ANOWA 2 tail - ok
 
