@@ -1,11 +1,15 @@
 ![icon96](https://github.com/user-attachments/assets/60ea9e98-58aa-4d8b-8738-b28a26ce4866)
 ## SigmaStatistics - application for automated statistical analysis 
 ---
+<!--
 [![pypi_version](https://img.shields.io/pypi/v/SigmaStatistics?label=PyPI&color=green)](https://pypi.org/project/SigmaStatistics)
+-->
 [![GitHub Release](https://img.shields.io/github/v/release/konung-yaropolk/SigmaStatistics?label=GitHub&color=green&link=https%3A%2F%2Fgithub.com%2Fkonung-yaropolk%2FSigmaStatistics)](https://github.com/konung-yaropolk/SigmaStatistics)
+<!--
 [![PyPI - License](https://img.shields.io/pypi/l/SigmaStatistics)](https://pypi.org/project/SigmaStatistics)
 [![Python](https://img.shields.io/badge/Python-v3.0%5E-green?logo=python)](https://pypi.org/project/SigmaStatistics)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/SigmaStatistics?label=PyPI%20stats&color=blue)](https://pypi.org/project/SigmaStatistics)
+-->
 ---
 
 #### You can download a single binary SigmaStatistics.exe on the github releases page:
