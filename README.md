@@ -1,4 +1,5 @@
-![icon](https://github.com/user-attachments/assets/bcacd6bf-2157-4a55-a051-1564c900a360) 
+![icon256](https://github.com/user-attachments/assets/8a4c5d75-7017-4f9d-a372-eb4ec41ff151)
+
 ## SigmaStatistics - application for automated statistical analysis 
 ---
 [![pypi_version](https://img.shields.io/pypi/v/SigmaStatistics?label=PyPI&color=green)](https://pypi.org/project/SigmaStatistics)
