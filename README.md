@@ -53,8 +53,8 @@ checked tests:
 --Wilcoxon 2,1 tails - ok  
 --Mann-whitney 2,1 tails - ok  
 --t-tests 2,1 tails -ok  
-
-n-sample:
---Friedman 2 tail - ok
---one-way ANOWA 2 tail - ok
-
+  
+n-sample:  
+--Friedman 2 tail - ok  
+--one-way ANOWA 2 tail - ok  
+  
