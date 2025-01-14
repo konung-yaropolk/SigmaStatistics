@@ -31,13 +31,14 @@ sigmastats
 ### TODO:
 
 -- Kruskal-Wallis test - add Dunn's multiple comparisons
--- Anova: add 2-way anova and 3-way(?)
+-- Anova: add 2-way anova and 3-way anova
+-- onevay Anova: add repeated measures (for normal dependend values) with and without Gaisser-Greenhouse correction
+-- onevay Anova: add Brown-Forsithe and Welch (for normal independend values with unequal SDs between groups)
 -- paired T-test: add ratio-paired t-test (ratios of paired values are consistent)
--- Kolmogorov-smirnov test (unpaired nonparametric 2 sample, compare cumulative distributions)
--- independend t-test with Welch correction (do not assume equal SDs in groups)
-
--- correlation test, correlation diagram
--- linear regression
+-- add Kolmogorov-smirnov test (unpaired nonparametric 2 sample, compare cumulative distributions)
+-- add independend t-test with Welch correction (do not assume equal SDs in groups)
+-- add correlation test, correlation diagram
+-- add linear regression, regression diagram
 
 
 check:
