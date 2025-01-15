@@ -2,6 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import AutoStatLib
 
+
 class Methods():
 
     def runAuto(self):

@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 
 import sys
-import random
 import csv
 from openpyxl import load_workbook
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPlainTextEdit
 # , QMessageBox, QTextEdit, QPushButton
+
 from SigmaStatistics.mainwindow_layout import Ui_MainWindow
 from SigmaStatistics.methods import Methods
+from SigmaStatistics.resources_blob import *
 
 # activate this flag when build the app using pyinstaller:
 BUILD = False
@@ -65,7 +66,7 @@ class MainWindow(QMainWindow, Methods):
 
     def replace_input_field(self):
         new_input_field = PlainTextEditDragNDrop(self)
-        # new_input_field.setLineWrapMode(QPlainTextEdit.NoWrap)
+        new_input_field.setLineWrapMode(QPlainTextEdit.LineWrapMode.NoWrap)
         placeholder_text = self.ui.input_field.placeholderText()
         layout = self.centralWidget().layout()
         layout.replaceWidget(self.ui.input_field, new_input_field)

@@ -14,8 +14,8 @@
    <string>SigmaStatistics</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>icon.ico</normaloff>icon.ico</iconset>
+   <iconset resource="resources.qrc">
+    <normaloff>:/icon/icon/icon_window.ico</normaloff>:/icon/icon/icon_window.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -243,7 +243,7 @@ p, li { white-space: pre-wrap; }
            <rect>
             <x>20</x>
             <y>40</y>
-            <width>181</width>
+            <width>171</width>
             <height>61</height>
            </rect>
           </property>
@@ -255,7 +255,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>10</x>
              <y>40</y>
-             <width>161</width>
+             <width>151</width>
              <height>17</height>
             </rect>
            </property>
@@ -268,7 +268,7 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>10</x>
              <y>20</y>
-             <width>161</width>
+             <width>151</width>
              <height>17</height>
             </rect>
            </property>
@@ -324,6 +324,9 @@ p, li { white-space: pre-wrap; }
           </property>
           <property name="text">
            <string>Plot Result</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
           </property>
          </widget>
         </widget>
@@ -460,6 +463,8 @@ p, li { white-space: pre-wrap; }
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
